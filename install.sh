@@ -8,7 +8,7 @@ sudo apt install git -y
 sudo apt install htop -y
 
 sudo apt install zsh -y
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+KEEP_ZSHRC=true RUNZSH=false sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 git clone git://github.com/zsh-users/zaw.git ~/.oh-my-zsh/custom/plugins/zaw
 
