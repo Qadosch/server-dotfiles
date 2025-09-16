@@ -119,10 +119,6 @@ export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 
 alias ll="ls -la"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # >>> talisman >>>
 # Below environment variables should not be modified unless you know what you are doing
 export TALISMAN_HOME=~/.talisman/bin
