@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh oleg@4862.ch -L 9000:localhost:9000
