@@ -13,3 +13,5 @@ KEEP_ZSHRC=true RUNZSH=false sh -c "$(curl -fsSL https://raw.githubusercontent.c
 git clone https://github.com/zsh-users/zaw.git ~/.oh-my-zsh/custom/plugins/zaw
 
 bash -c "$(curl --silent https://raw.githubusercontent.com/thoughtworks/talisman/main/global_install_scripts/install.bash)"
+
+curl -LsSf https://astral.sh/uv/install.sh | sh
