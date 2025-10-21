@@ -117,6 +117,7 @@ export PATH=$HOME/.local/bin:$PATH
 
 export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 
+alial ls="eza"
 alias ll="ls -la"
 
 # >>> talisman >>>
